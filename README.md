@@ -39,12 +39,12 @@ This repository contains codes for following models and methods:
 
 The the results of evaluation phase of competition are reported in this table.
 
-| model | F1 | Precision | Recall |
-|-------|----|-----------|--------|
-|Attention|0.609|0.615|0.661|
-|BERT + CRF|0.672|0.663|0.736|
-|Electra + CRF|0.658|0.641|0.743|
-|RoBERTa + CRF|0.667|0.654|0.741|
-|Ensemble(union)|0.619|0.570|**0.755**|
-|Ensemble(vote)|0.681|0.675|0.741|
-|**Ensemble(intersection)**|**0.684**|**0.699**|0.713|
+| model | F1 |
+|-------|----|
+|Attention|0.609|
+|BERT + CRF|0.672|
+|Electra + CRF|0.658|
+|RoBERTa + CRF|0.667|
+|Ensemble(union)|0.619|
+|Ensemble(vote)|0.681|
+|**Ensemble(intersection)**|**0.684**|
