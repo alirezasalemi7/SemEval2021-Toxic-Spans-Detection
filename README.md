@@ -48,3 +48,31 @@ The the results of evaluation phase of competition are reported in this table.
 |Ensemble(union)|0.619|
 |Ensemble(vote)|0.681|
 |**Ensemble(intersection)**|**0.684**|
+
+also character level prediction results could be fined in [evaluation](https://github.com/alirezasalemi7/SemEval2021-Toxic-Spans-Detection/tree/master/evaluation) directory.
+
+## How to train models?
+
+The procedure of trining models is straight but needs following materials.
+
+### Data
+
+We used following datasets to train our models:
+
+- Main Task Dataset (Toxic Spans): this dataset was released for competition and could be downloaded from [this link.](https://github.com/ipavlopoulos/toxic_spans)
+
+- Jigsaw Unintended Bias in Toxicity Classification Dataset: this dataset was used to train Attention-based models and could be downloaded from [this link.](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data)
+
+- Toxic words list: this dataset contains some hate words and used for base methods in experiments and could be downloaded from [this link.](https://www.kaggle.com/nicapotato/bad-bad-words)
+
+### Codes
+
+[models](https://github.com/alirezasalemi7/SemEval2021-Toxic-Spans-Detection/tree/master/models) directory contains notebooks to train each model from scratch and all you need is to run this notebooks. this codes also save some checkpoints of trained model for later use. to load checkpoints use following code:
+
+```
+model.load_weights('address to checkpoint')
+```
+
+also it should be noted that `model` is keras model.
+
+
