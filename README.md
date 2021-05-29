@@ -75,4 +75,17 @@ model.load_weights('address to checkpoint')
 
 also it should be noted that `model` is keras model.
 
+## Citation
+
+If you use this code, please consider citing our paper:
+
+
+```
+@article{salemi2021utnlp,
+  title={UTNLP at SemEval-2021 Task 5: A Comparative Analysis of Toxic Span Detection using Attention-based, Named Entity Recognition, and Ensemble Models},
+  author={Salemi, Alireza and Sabri, Nazanin and Kebriaei, Emad and Bahrak, Behnam and Shakery, Azadeh},
+  journal={arXiv preprint arXiv:2104.04770},
+  year={2021}
+}
+```
 
