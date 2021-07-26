@@ -81,11 +81,21 @@ If you use this code, please consider citing our paper:
 
 
 ```
-@article{salemi2021utnlp,
-  title={UTNLP at SemEval-2021 Task 5: A Comparative Analysis of Toxic Span Detection using Attention-based, Named Entity Recognition, and Ensemble Models},
-  author={Salemi, Alireza and Sabri, Nazanin and Kebriaei, Emad and Bahrak, Behnam and Shakery, Azadeh},
-  journal={arXiv preprint arXiv:2104.04770},
-  year={2021}
+@inproceedings{salemi-etal-2021-utnlp,
+    title = "{UTNLP} at {S}em{E}val-2021 Task 5: A Comparative Analysis of Toxic Span Detection using Attention-based, Named Entity Recognition, and Ensemble Models",
+    author = "Salemi, Alireza  and
+      Sabri, Nazanin  and
+      Kebriaei, Emad  and
+      Bahrak, Behnam  and
+      Shakery, Azadeh",
+    booktitle = "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.semeval-1.136",
+    pages = "995--1002",
+    abstract = "Detecting which parts of a sentence contribute to that sentence{'}s toxicity{---}rather than providing a sentence-level verdict of hatefulness{---} would increase the interpretability of models and allow human moderators to better understand the outputs of the system. This paper presents our team{'}s, UTNLP, methodology and results in the SemEval-2021 shared task 5 on toxic spans detection. We test multiple models and contextual embeddings and report the best setting out of all. The experiments start with keyword-based models and are followed by attention-based, named entity- based, transformers-based, and ensemble models. Our best approach, an ensemble model, achieves an F1 of 0.684 in the competition{'}s evaluation phase.",
 }
 ```
 
